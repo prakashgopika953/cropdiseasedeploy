@@ -1,0 +1,221 @@
+/* Navbar Styles */
+.navbar {
+  background-color: #2d6a4f;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+  font-family: playwrite Italia Moderna;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+/* Page Content Styles */
+.content {
+  padding: 30px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Home Page */
+.home-container {
+  background-color:#06ca72;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* App Page */
+.app-container {
+  background-color: #06ca72;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.blog-container {
+  background-color: #06ca72;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.blog-title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.blog-posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.blog-image-right{
+  height: 400px;
+  width: 400px;
+  border-radius: 30px;
+}
+
+.blog-card1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  gap: 40px; 
+  background: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.steps-container {
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  gap: 20px; 
+  padding: 20px;
+}
+
+.step-card {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center;
+  background: rgb(17, 144, 99);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  color: white;
+  height: 500px;
+}
+
+.heading {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: playwrite Italia Moderna;
+}
+
+.image {
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.content {
+  text-align: justify;
+  font-size: 1rem;
+  
+  font-family: playwrite Italia Moderna;
+}
+
+.heading-3{
+  text-align: center;
+  font-family: playwrite Italia Moderna;
+}
+
+.map {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.blog-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sub-heading {
+  font-family: playwrite Italia Moderna;
+  text-align: left;
+}
+
+.blog-text {
+  flex: 1;
+  color: black;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 50px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.blog-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start; 
+}
+
+.blog-image-right {
+  width: 100%;
+  max-width: 700px; 
+  border-radius: 10px;
+}
+
+
+.blog-image {
+  width: 100%;
+  height: 800px;
+  display: block;
+}
+
+.blog-content {
+  text-align: center;
+  padding: 20px;
+}
+
+.blog-description {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+}
+
+
+/* Library Page */
+.library-container {
+  background-color: #e3f2fd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  background: #2d6a4f;
+  padding: 10px;
+  border-radius: 10px;
+}
+.final-content {
+  text-align: center;
+}
+
